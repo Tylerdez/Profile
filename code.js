@@ -29,6 +29,18 @@ colorCh.addEventListener("mouseover", function () {
   colorCh.style = "color:green";
 });
 
+var colorC = document.getElementsByTagName("p")[0];
+
+colorC.addEventListener("mouseover", function () {
+  colorC.style = "color:green";
+});
+
+var color = document.getElementsByTagName("h3")[0];
+
+color.addEventListener("mouseover", function () {
+  color.style = "color:green";
+});
+
 //Mouse Leave Events (only triggered when the mouse pointer leaves the selected element)---------------------
 var colorChange = document.getElementById("change");
 
@@ -58,4 +70,16 @@ var colorCh = document.getElementsByTagName("ul")[1];
 
 colorCh.addEventListener("mouseleave", function () {
   colorCh.style = "color:black";
+});
+
+var colorC = document.getElementsByTagName("p")[0];
+
+colorC.addEventListener("mouseleave", function () {
+  colorC.style = "color:black";
+});
+
+var color = document.getElementsByTagName("h3")[0];
+
+color.addEventListener("mouseleave", function () {
+  color.style = "color:black";
 });
