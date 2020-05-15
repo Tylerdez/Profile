@@ -26,7 +26,7 @@ colorCha.addEventListener("mouseover", function () {
 var colorCh = document.getElementsByTagName("ul")[1];
 
 colorCh.addEventListener("mouseover", function () {
-  colorCh.style = "color:green";
+  colorCh.style = "color:green; border: 3px solid green";
 });
 
 var colorC = document.getElementsByTagName("p")[0];
@@ -38,7 +38,8 @@ colorC.addEventListener("mouseover", function () {
 var color = document.getElementsByTagName("h3")[0];
 
 color.addEventListener("mouseover", function () {
-  color.style = "color:green";
+  color.style =
+    "color:green; text-decoration:underline; border: 3px solid green";
 });
 
 //Mouse Leave Events (only triggered when the mouse pointer leaves the selected element)---------------------
